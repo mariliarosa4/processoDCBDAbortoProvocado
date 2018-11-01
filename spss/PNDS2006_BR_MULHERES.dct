@@ -1,0 +1,676 @@
+infix dictionary using "SeuDiretorio\PNDS2006_BR_MULHERES.dat" {
+1 lines
+    str      REC_TYPE    1:   1-3   
+    double   domicilio_id    1:   4-13  
+    double   mulher_id    1:  14-25  
+    long     cm000_nque    1:  26-33  
+    long     cm000a_ques    1:  34-39  
+    int      cm002_cong    1:  40-43  
+    byte     cm003_estr    1:  44-45  
+    byte     cm004_macr    1:  46-46  
+    byte     cm008_situ    1:  47-47  
+    byte     cm021_linh    1:  48-49  
+    str      cm023_data_entr    1:  50-59  
+    byte     m102_idad    1:  60-61  
+    byte     m103_onde    1:  62-63  
+    byte     m104_temp    1:  64-65  
+    byte     m105_ler    1:  66-67  
+    byte     m106_escu    1:  68-69  
+    byte     m107_assi    1:  70-71  
+    byte     m108_reli    1:  72-73  
+    byte     m109_reli    1:  74-75  
+    byte     m110_serv    1:  76-77  
+    byte     m111_cor    1:  78-79  
+    byte     m112_conv    1:  80-81  
+    byte     m113_titu    1:  82-83  
+    byte     m114_filh    1:  84-85  
+    byte     m115a_linh    1:  86-87  
+    byte     m115b_linh    1:  88-89  
+    byte     m115c_linh    1:  90-91  
+    byte     m115d_linh    1:  92-93  
+    byte     m115e_linh    1:  94-95  
+    byte     m200_atua    1:  96-97  
+    byte     m201_mese    1:  98-99  
+    byte     m202_quis    1: 100-101 
+    byte     m203_cons    1: 102-103 
+    byte     m20401_grav    1: 104-105 
+    byte     m20402_nao    1: 106-107 
+    byte     m20403_nao    1: 108-109 
+    byte     m20404_nao    1: 110-111 
+    byte     m20405_muit    1: 112-113 
+    byte     m20406_nao    1: 114-115 
+    byte     m20407_nao    1: 116-117 
+    byte     m20496_outr    1: 118-119 
+    byte     m20511_sus    1: 120-121 
+    byte     m20514_conv    1: 122-123 
+    byte     m20522_part    1: 124-125 
+    byte     m20596_outr    1: 126-127 
+    byte     m206_mese    1: 128-129 
+    byte     m207_nume    1: 130-131 
+    byte     m20801_medi    1: 132-133 
+    byte     m20802_enfe    1: 134-135 
+    byte     m20803_auxi    1: 136-137 
+    byte     m20804_part    1: 138-139 
+    byte     m20896_outr    1: 140-141 
+    byte     m209_cart    1: 142-143 
+    byte     m210_exam    1: 144-145 
+    byte     m211_exam    1: 146-147 
+    byte     m212a_peso    1: 148-149 
+    byte     m212b_altu    1: 150-151 
+    byte     m212c_pres    1: 152-153 
+    byte     m213a_sifi    1: 154-155 
+    byte     m213b_hepa    1: 156-157 
+    byte     m214a_hiv    1: 158-159 
+    byte     m214b_toxo    1: 160-161 
+    byte     m215_teta    1: 162-163 
+    byte     m216_dose    1: 164-165 
+    byte     m21701_ferr    1: 166-167 
+    byte     m21702_acid    1: 168-169 
+    byte     m21703_reme    1: 170-171 
+    byte     m21704_nao    1: 172-173 
+    byte     m21798_nao    1: 174-175 
+    byte     m21801_cons    1: 176-177 
+    byte     m21802_nao    1: 178-179 
+    byte     m21803_nao    1: 180-181 
+    byte     m21804_nao    1: 182-183 
+    byte     m21898_nao    1: 184-185 
+    byte     m21901_sus    1: 186-187 
+    byte     m21902_farm    1: 188-189 
+    byte     m21903_dinh    1: 190-191 
+    byte     m21904_temp    1: 192-193 
+    byte     m21905_onde    1: 194-195 
+    byte     m21906_muit    1: 196-197 
+    byte     m21996_outr    1: 198-199 
+    byte     m22001_ferr    1: 200-201 
+    byte     m22002_ferr    1: 202-203 
+    byte     m22013_ferr    1: 204-205 
+    byte     m22014_ferr    1: 206-207 
+    byte     m22015_ferr    1: 208-209 
+    byte     m22021_foli    1: 210-211 
+    byte     m22022_foli    1: 212-213 
+    byte     m22031_foli    1: 214-215 
+    byte     m22041_foli    1: 216-217 
+    byte     m22042_foli    1: 218-219 
+    int      m221a_ferr    1: 220-222 
+    int      m221b_foli    1: 223-225 
+    byte     m222_quan    1: 226-227 
+    byte     m223_veze    1: 228-229 
+    byte     m224_nunc    1: 230-231 
+    byte     m225_part    1: 232-233 
+    byte     m227_perd    1: 234-235 
+    byte     m228_idad    1: 236-237 
+    byte     m229_algu    1: 238-239 
+    byte     m230_idad    1: 240-241 
+    byte     m231_algu    1: 242-243 
+    byte     m232a_filh    1: 244-245 
+    byte     m232b_filh    1: 246-247 
+    byte     m233_algu    1: 248-249 
+    byte     m234a_filh    1: 250-251 
+    byte     m234b_filh    1: 252-253 
+    byte     m235a_filh    1: 254-255 
+    byte     m235b_filh    1: 256-257 
+    byte     m236_tota    1: 258-259 
+    byte     m238a_adot    1: 260-261 
+    byte     m238b_adot    1: 262-263 
+    byte     m254_veze    1: 264-265 
+    byte     m280_algu    1: 266-267 
+    byte     m281_quan    1: 268-269 
+    byte     m282_abor    1: 270-271 
+    byte     m283a_codi    1: 272-272 
+    byte     m283b_temp    1: 273-274 
+    byte     m284_engr    1: 275-276 
+    byte     m28501_dura    1: 277-278 
+    byte     m28502_logo    1: 279-280 
+    byte     m28503_meio    1: 281-282 
+    byte     m28504_ante    1: 283-284 
+    byte     m28505_qual    1: 285-286 
+    byte     m28596_outr    1: 287-288 
+    byte     m28598_nao    1: 289-290 
+    byte     m30101_espo    1: 291-292 
+    byte     m30201_conh    1: 293-294 
+    byte     m30301_usou    1: 295-296 
+    byte     m30102_espo    1: 297-298 
+    byte     m30202_conh    1: 299-300 
+    byte     m30302_usou    1: 301-302 
+    byte     m30103_espo    1: 303-304 
+    byte     m30203_conh    1: 305-306 
+    byte     m30303_usou    1: 307-308 
+    byte     m30104_espo    1: 309-310 
+    byte     m30204_conh    1: 311-312 
+    byte     m30304_usou    1: 313-314 
+    byte     m30105_espo    1: 315-316 
+    byte     m30205_conh    1: 317-318 
+    byte     m30305_usou    1: 319-320 
+    byte     m30106_espo    1: 321-322 
+    byte     m30206_conh    1: 323-324 
+    byte     m30306_usou    1: 325-326 
+    byte     m30107_espo    1: 327-328 
+    byte     m30207_conh    1: 329-330 
+    byte     m30307_usou    1: 331-332 
+    byte     m30108_espo    1: 333-334 
+    byte     m30208_conh    1: 335-336 
+    byte     m30308_usou    1: 337-338 
+    byte     m30109_espo    1: 339-340 
+    byte     m30209_conh    1: 341-342 
+    byte     m30309_usou    1: 343-344 
+    byte     m30110_espo    1: 345-346 
+    byte     m30210_conh    1: 347-348 
+    byte     m30310_usou    1: 349-350 
+    byte     m30111_espo    1: 351-352 
+    byte     m30211_conh    1: 353-354 
+    byte     m30311_usou    1: 355-356 
+    byte     m30112_espo    1: 357-358 
+    byte     m30212_conh    1: 359-360 
+    byte     m30312_usou    1: 361-362 
+    byte     m30113_espo    1: 363-364 
+    byte     m30213_conh    1: 365-366 
+    byte     m30313_usou    1: 367-368 
+    byte     m30196_espo    1: 369-370 
+    byte     m30296_conh    1: 371-372 
+    byte     m30396_usou    1: 373-374 
+    str      m302a_espe    1: 375-404 
+    byte     m304_usou    1: 405-406 
+    byte     m305_tent    1: 407-408 
+    byte     m30701_este    1: 409-410 
+    byte     m30702_este    1: 411-412 
+    byte     m30703_pilu    1: 413-414 
+    byte     m30704_diu    1: 415-416 
+    byte     m30705_inje    1: 417-418 
+    byte     m30706_impl    1: 419-420 
+    byte     m30707_cami    1: 421-422 
+    byte     m30708_cami    1: 423-424 
+    byte     m30709_diaf    1: 425-426 
+    byte     m30710_crem    1: 427-428 
+    byte     m30711_tabe    1: 429-430 
+    byte     m30712_coit    1: 431-432 
+    byte     m30713_pilu    1: 433-434 
+    byte     m30796_outr    1: 435-436 
+    byte     m308_idad    1: 437-438 
+    byte     m309_engr    1: 439-440 
+    byte     m310_filh    1: 441-442 
+    byte     m313_usa    1: 443-444 
+    byte     m31401_este    1: 445-446 
+    byte     m31402_este    1: 447-448 
+    byte     m31403_pilu    1: 449-450 
+    byte     m31404_diu    1: 451-452 
+    byte     m31405_inje    1: 453-454 
+    byte     m31406_impl    1: 455-456 
+    byte     m31407_cami    1: 457-458 
+    byte     m31408_cami    1: 459-460 
+    byte     m31409_diaf    1: 461-462 
+    byte     m31410_crem    1: 463-464 
+    byte     m31411_tabe    1: 465-466 
+    byte     m31412_coit    1: 467-468 
+    byte     m31413_pilu    1: 469-470 
+    byte     m31496_outr    1: 471-472 
+    byte     m31501_medi    1: 473-474 
+    byte     m31502_enfe    1: 475-476 
+    byte     m31503_nao    1: 477-478 
+    byte     m31598_nao    1: 479-480 
+    int      m316_pilu    1: 481-483 
+    byte     m317_orde    1: 484-485 
+    byte     m318_pilu    1: 486-487 
+    byte     m31901_nao    1: 488-489 
+    byte     m31902_esqu    1: 490-491 
+    byte     m31903_prof    1: 492-493 
+    byte     m31904_comp    1: 494-495 
+    byte     m31905_difi    1: 496-497 
+    byte     m31906_sem    1: 498-499 
+    byte     m31996_outr    1: 500-501 
+    byte     m32001_fico    1: 502-503 
+    byte     m32002_muit    1: 504-505 
+    byte     m32003_mari    1: 506-507 
+    byte     m32004_mens    1: 508-509 
+    byte     m32005_temp    1: 510-511 
+    byte     m32096_outr    1: 512-513 
+    byte     m321_nome    1: 514-515 
+    byte     m322_sus    1: 516-517 
+    byte     m323_porq    1: 518-519 
+    byte     m324_cons    1: 520-521 
+    byte     m325_onde    1: 522-523 
+    byte     m326a_perd    1: 524-525 
+    byte     m326b_mens    1: 526-527 
+    byte     m326c_outr    1: 528-529 
+    byte     m32700_nao    1: 530-531 
+    byte     m32701_perd    1: 532-533 
+    byte     m32702_mens    1: 534-535 
+    byte     m32703_fico    1: 536-537 
+    byte     m32704_esqu    1: 538-539 
+    byte     m32705_ativ    1: 540-541 
+    byte     m32796_outr    1: 542-543 
+    byte     m328_esqu    1: 544-545 
+    byte     m329_ulti    1: 546-547 
+    byte     m33101_mens    1: 548-549 
+    byte     m33102_esqu    1: 550-551 
+    byte     m33103_razo    1: 552-553 
+    byte     m33104_nao    1: 554-555 
+    byte     m33105_fico    1: 556-557 
+    byte     m33106_temp    1: 558-559 
+    byte     m33107_sem    1: 560-561 
+    byte     m33196_outr    1: 562-563 
+    byte     m332_luga    1: 564-565 
+    byte     m333_pago    1: 566-567 
+    byte     m334_prim    1: 568-569 
+    byte     m33501_orga    1: 570-571 
+    byte     m33502_empr    1: 572-573 
+    byte     m33503_poli    1: 574-575 
+    byte     m33504_amig    1: 576-577 
+    byte     m33505_medi    1: 578-579 
+    byte     m33506_fami    1: 580-581 
+    byte     m33507_ofer    1: 582-583 
+    byte     m33508_ning    1: 584-585 
+    byte     m33596_outr    1: 586-587 
+    byte     m33598_nao    1: 588-589 
+    byte     m336_moti    1: 590-591 
+    byte     m33701_idad    1: 592-593 
+    byte     m33702_muit    1: 594-595 
+    byte     m33703_prob    1: 596-597 
+    byte     m33704_muit    1: 598-599 
+    byte     m33705_prob    1: 600-601 
+    byte     m33706_medi    1: 602-603 
+    byte     m33796_outr    1: 604-605 
+    byte     m33798_nao    1: 606-607 
+    byte     m338_deci    1: 608-609 
+    byte     m340_comp    1: 610-611 
+    byte     m341_comp    1: 612-613 
+    byte     m342_apre    1: 614-615 
+    byte     m343_difi    1: 616-617 
+    byte     m344_prob    1: 618-619 
+    byte     m345_cons    1: 620-621 
+    byte     m346_exam    1: 622-623 
+    byte     m347_entr    1: 624-625 
+    byte     m348_entr    1: 626-627 
+    byte     m349_grup    1: 628-629 
+    byte     m350_ajud    1: 630-631 
+    byte     m351_orie    1: 632-633 
+    int      m352_temp    1: 634-636 
+    byte     m353_conv    1: 637-638 
+    byte     m354_apoi    1: 639-640 
+    byte     m355_ajud    1: 641-642 
+    byte     m356_feit    1: 643-644 
+    byte     m357_loca    1: 645-646 
+    byte     m358_acha    1: 647-648 
+    byte     m35901_reve    1: 649-650 
+    byte     m35902_pode    1: 651-652 
+    byte     m35903_rumo    1: 653-654 
+    byte     m35904_conh    1: 655-656 
+    byte     m35996_outr    1: 657-658 
+    byte     m35998_nao    1: 659-660 
+    byte     m360_arre    1: 661-662 
+    byte     m361_moti    1: 663-664 
+    byte     m362_arre    1: 665-666 
+    byte     m363_moti    1: 667-668 
+    byte     m364_fari    1: 669-670 
+    byte     m365_moti    1: 671-672 
+    byte     m366_reco    1: 673-674 
+    byte     m36701_prob    1: 675-676 
+    byte     m36702_falh    1: 677-678 
+    byte     m36703_irre    1: 679-680 
+    byte     m36704_muda    1: 681-682 
+    byte     m36705_ques    1: 683-684 
+    byte     m36796_outr    1: 685-686 
+    str      m368_data_oper    1: 687-693 
+    str      m369_data_uso    1: 694-700 
+    byte     m370_conv    1: 701-702 
+    byte     m371_por    1: 703-704 
+    byte     m372_luga    1: 705-706 
+    byte     m373_sati    1: 707-708 
+    byte     m374_usar    1: 709-710 
+    byte     m375_gost    1: 711-712 
+    byte     m377_cons    1: 713-714 
+    byte     m378_conf    1: 715-716 
+    byte     m37901_sus    1: 717-718 
+    byte     m37902_plan    1: 719-720 
+    byte     m37903_part    1: 721-722 
+    byte     m37904_farm    1: 723-724 
+    byte     m37996_outr    1: 725-726 
+    byte     m37998_nao    1: 727-728 
+    byte     m380_nenh    1: 729-730 
+    byte     m381_ajud    1: 731-732 
+    byte     m382_aond    1: 733-734 
+    byte     m383_resu    1: 735-736 
+    byte     m384_nao    1: 737-738 
+    byte     m385_quis    1: 739-740 
+    byte     m386_por    1: 741-742 
+    byte     m387_visi    1: 743-744 
+    byte     m38801b_sabe    1: 745-746 
+    byte     m38802b_perm    1: 747-748 
+    byte     m38803b_dinh    1: 749-750 
+    byte     m38804b_dist    1: 751-752 
+    byte     m38805b_toma    1: 753-754 
+    byte     m38806b_nao    1: 755-756 
+    byte     m38807b_medo    1: 757-758 
+    byte     m38808b_nao    1: 759-760 
+    byte     m38901_ciga    1: 761-762 
+    byte     m38902_cach    1: 763-764 
+    byte     m38903_outr    1: 765-766 
+    byte     m38904_nao    1: 767-768 
+    byte     m390_quan    1: 769-770 
+    byte     m396a_corr    1: 771-772 
+    byte     m396b_coce    1: 773-774 
+    byte     m396c_trat    1: 775-776 
+    byte     m396d01_medo    1: 777-778 
+    byte     m396d02_acha    1: 779-780 
+    byte     m396d03_nao    1: 781-782 
+    byte     m396d04_trat    1: 783-784 
+    byte     m396d05_verg    1: 785-786 
+    byte     m396d06_trat    1: 787-788 
+    byte     m396d96_outr    1: 789-790 
+    byte     m396e01_sus    1: 791-792 
+    byte     m396e02_conv    1: 793-794 
+    byte     m396e03_part    1: 795-796 
+    byte     m396e96_outr    1: 797-798 
+    byte     m396f_foi    1: 799-800 
+    byte     m396g_rece    1: 801-802 
+    byte     m396h_cons    1: 803-804 
+    byte     m396i01_sus    1: 805-806 
+    byte     m396i11_outr    1: 807-808 
+    byte     m396i21_farm    1: 809-810 
+    byte     m396i22_farm    1: 811-812 
+    byte     m396i31_outr    1: 813-814 
+    byte     m396j01_sus    1: 815-816 
+    byte     m396j02_farm    1: 817-818 
+    byte     m396j03_sem    1: 819-820 
+    byte     m396j04_sem    1: 821-822 
+    byte     m396j05_nao    1: 823-824 
+    byte     m396j06_muit    1: 825-826 
+    byte     m396j96_outr    1: 827-828 
+    byte     m501_casa    1: 829-830 
+    byte     m502_algu    1: 831-832 
+    byte     m503_esta    1: 833-834 
+    byte     m504_mora    1: 835-836 
+    byte     m505_linh    1: 837-838 
+    byte     m506_veze    1: 839-840 
+    byte     m507_idad    1: 841-842 
+    byte     m508_idad    1: 843-844 
+    byte     m50901_nao    1: 845-846 
+    byte     m50902_nao    1: 847-848 
+    byte     m50903_pret    1: 849-850 
+    byte     m50904_medo    1: 851-852 
+    byte     m50905_medo    1: 853-854 
+    byte     m50996_outr    1: 855-856 
+    byte     m50998_nao    1: 857-858 
+    byte     m50999_recu    1: 859-860 
+    byte     m510_home    1: 861-862 
+    byte     m511_com    1: 863-864 
+    byte     m512_algu    1: 865-866 
+    byte     m513_algu    1: 867-868 
+    byte     m51401_pilu    1: 869-870 
+    byte     m51402_tabe    1: 871-872 
+    byte     m51403_diaf    1: 873-874 
+    byte     m51404_coit    1: 875-876 
+    byte     m51496_outr    1: 877-878 
+    byte     m51498_nao    1: 879-880 
+    byte     m51499_recu    1: 881-882 
+    byte     m515_moti    1: 883-884 
+    byte     m51601_evit    1: 885-886 
+    byte     m51602_prot    1: 887-888 
+    byte     m51698_nao    1: 889-890 
+    byte     m51699_recu    1: 891-892 
+    byte     m517_rela    1: 893-894 
+    byte     m518_idad    1: 895-896 
+    byte     m519_teve    1: 897-898 
+    byte     m520_cami    1: 899-900 
+    byte     m521_sexo    1: 901-902 
+    byte     m522_cami    1: 903-904 
+    byte     m52301_conf    1: 905-906 
+    byte     m52302_nao    1: 907-908 
+    byte     m52303_parc    1: 909-910 
+    byte     m52304_tesa    1: 911-912 
+    byte     m52305_outr    1: 913-914 
+    byte     m52396_outr    1: 915-916 
+    byte     m52398_nao    1: 917-918 
+    byte     m52399_recu    1: 919-920 
+    byte     m524_algu    1: 921-922 
+    byte     m52501_pilu    1: 923-924 
+    byte     m52502_inje    1: 925-926 
+    byte     m52503_diu    1: 927-928 
+    byte     m52504_diaf    1: 929-930 
+    byte     m52505_coit    1: 931-932 
+    byte     m52506_tabe    1: 933-934 
+    byte     m52507_este    1: 935-936 
+    byte     m52596_outr    1: 937-938 
+    byte     m52598_nao    1: 939-940 
+    byte     m52599_recu    1: 941-942 
+    byte     m526_onde    1: 943-944 
+    byte     m52711_hosp    1: 945-946 
+    byte     m52712_hosp    1: 947-948 
+    byte     m52713_cent    1: 949-950 
+    byte     m52714_agen    1: 951-952 
+    byte     m52715_post    1: 953-954 
+    byte     m52716_farm    1: 955-956 
+    byte     m52717_supe    1: 957-958 
+    byte     m52796_outr    1: 959-960 
+    byte     m528_como    1: 961-962 
+    byte     m529_luga    1: 963-964 
+    byte     m53011_hosp    1: 965-966 
+    byte     m53012_hosp    1: 967-968 
+    byte     m53013_cent    1: 969-970 
+    byte     m53014_agen    1: 971-972 
+    byte     m53015_post    1: 973-974 
+    byte     m53016_farm    1: 975-976 
+    byte     m53017_supe    1: 977-978 
+    byte     m53096_outr    1: 979-980 
+    byte     m531_tem    1: 981-982 
+    byte     m603_quer    1: 983-984 
+    byte     m604_quan    1: 985-986 
+    byte     m606b01_nao    1: 987-988 
+    byte     m606b02_nao    1: 989-990 
+    byte     m606b03_pouc    1: 991-992 
+    byte     m606b04_meno    1: 993-994 
+    byte     m606b05_hist    1: 995-996 
+    byte     m606b06_infe    1: 997-998 
+    byte     m606b07_amen    1: 999-1000
+    byte     m606b08_amam    1:1001-1002
+    byte     m606b09_fata    1:1003-1004
+    byte     m606b10_se    1:1005-1006
+    byte     m606b11_comp    1:1007-1008
+    byte     m606b12_outr    1:1009-1010
+    byte     m606b13_moti    1:1011-1012
+    byte     m606b14_nao    1:1013-1014
+    byte     m606b15_nao    1:1015-1016
+    byte     m606b16_prob    1:1017-1018
+    byte     m606b17_medo    1:1019-1020
+    byte     m606b18_difi    1:1021-1022
+    byte     m606b19_muit    1:1023-1024
+    byte     m606b20_inco    1:1025-1026
+    byte     m606b21_inte    1:1027-1028
+    byte     m606b96_outr    1:1029-1030
+    byte     m606b98_nao    1:1031-1032
+    byte     m607_prob    1:1033-1034
+    byte     m609_pret    1:1035-1036
+    byte     m61001_este    1:1037-1038
+    byte     m61002_este    1:1039-1040
+    byte     m61003_pilu    1:1041-1042
+    byte     m61004_diu    1:1043-1044
+    byte     m61005_inje    1:1045-1046
+    byte     m61006_impl    1:1047-1048
+    byte     m61007_cami    1:1049-1050
+    byte     m61008_cami    1:1051-1052
+    byte     m61009_diaf    1:1053-1054
+    byte     m61010_crem    1:1055-1056
+    byte     m61011_tabe    1:1057-1058
+    byte     m61012_coit    1:1059-1060
+    byte     m61096_outr    1:1061-1062
+    byte     m61098_nao    1:1063-1064
+    byte     m611_por    1:1065-1066
+    byte     m612_util    1:1067-1068
+    byte     m613_quer    1:1069-1070
+    byte     m614_quan    1:1071-1072
+    byte     m615_pret    1:1073-1074
+    byte     m61601_este    1:1075-1076
+    byte     m61602_este    1:1077-1078
+    byte     m61603_pilu    1:1079-1080
+    byte     m61604_diu    1:1081-1082
+    byte     m61605_inje    1:1083-1084
+    byte     m61606_impl    1:1085-1086
+    byte     m61607_cami    1:1087-1088
+    byte     m61608_cami    1:1089-1090
+    byte     m61609_diaf    1:1091-1092
+    byte     m61610_crem    1:1093-1094
+    byte     m61611_tabe    1:1095-1096
+    byte     m61612_coit    1:1097-1098
+    byte     m61696_outr    1:1099-1100
+    byte     m61698_nao    1:1101-1102
+    byte     m617_raza    1:1103-1104
+    byte     m618_util    1:1105-1106
+    byte     m619b_filh    1:1107-1108
+    byte     m620a_filh    1:1109-1110
+    byte     m620b_filh    1:1111-1112
+    byte     m620c_filh    1:1113-1114
+    byte     m62101b_radi    1:1115-1116
+    byte     m62102b_tele    1:1117-1118
+    byte     m62103b_tele    1:1119-1120
+    byte     m62104b_jorn    1:1121-1122
+    byte     m62105b_cart    1:1123-1124
+    byte     m62106b_folh    1:1125-1126
+    byte     m62107b_pale    1:1127-1128
+    byte     m62108b_grup    1:1129-1130
+    byte     m62109b_inte    1:1131-1132
+    byte     m62201_esco    1:1133-1134
+    byte     m62202_igre    1:1135-1136
+    byte     m62203_fami    1:1137-1138
+    byte     m62204_serv    1:1139-1140
+    byte     m62205_asso    1:1141-1142
+    byte     m62296_outr    1:1143-1144
+    byte     m62206_nao    1:1145-1146
+    byte     m625_deci    1:1147-1148
+    byte     m626_mari    1:1149-1150
+    byte     m627_conv    1:1151-1152
+    byte     m629_mari    1:1153-1154
+    byte     m63001b_dst    1:1155-1156
+    byte     m63002b_outr    1:1157-1158
+    byte     m63003b_part    1:1159-1160
+    byte     m63004b_cans    1:1161-1162
+    byte     m63005b_nao    1:1163-1164
+    byte     m63301b_engr    1:1165-1166
+    byte     m63302b_sair    1:1167-1168
+    byte     m63303b_casa    1:1169-1170
+    byte     m63304b_nao    1:1171-1172
+    byte     m63305b_nao    1:1173-1174
+    byte     m63306b_caso    1:1175-1176
+    byte     m63307b_nao    1:1177-1178
+    byte     m63308b_quer    1:1179-1180
+    byte     m63309b_mari    1:1181-1182
+    byte     m63310b_nao    1:1183-1184
+    byte     m63312b_meto    1:1185-1186
+    byte     m63396b_outr    1:1187-1188
+    byte     m63401b_melh    1:1189-1190
+    byte     m63402b_mais    1:1191-1192
+    byte     m63403b_rela    1:1193-1194
+    byte     m63404b_case    1:1195-1196
+    byte     m63405b_vida    1:1197-1198
+    byte     m63406b_ter    1:1199-1200
+    byte     m63407b_aban    1:1201-1202
+    byte     m63408b_reje    1:1203-1204
+    byte     m63409b_mari    1:1205-1206
+    byte     m63410b_difi    1:1207-1208
+    byte     m63411b_vida    1:1209-1210
+    byte     m63412b_perd    1:1211-1212
+    byte     m63413b_fico    1:1213-1214
+    byte     m63496b_outr    1:1215-1216
+    byte     m63701b_nunc    1:1217-1218
+    byte     m63702b_aind    1:1219-1220
+    byte     m63703b_quer    1:1221-1222
+    byte     m63704b_apro    1:1223-1224
+    byte     m63705b_medo    1:1225-1226
+    byte     m63706b_medo    1:1227-1228
+    byte     m63707b_nunc    1:1229-1230
+    byte     m63708b_engr    1:1231-1232
+    byte     m63709b_engr    1:1233-1234
+    byte     m63710b_nunc    1:1235-1236
+    byte     m63711b_nunc    1:1237-1238
+    byte     m63712b_comp    1:1239-1240
+    byte     m63796b_outr    1:1241-1242
+    byte     m638_meto    1:1243-1244
+    byte     m63901b_laqu    1:1245-1246
+    byte     m63902b_vase    1:1247-1248
+    byte     m63903b_pilu    1:1249-1250
+    byte     m63904b_diu    1:1251-1252
+    byte     m63905b_inje    1:1253-1254
+    byte     m63906b_norp    1:1255-1256
+    byte     m63907b_cami    1:1257-1258
+    byte     m63908b_cami    1:1259-1260
+    byte     m63909b_diaf    1:1261-1262
+    byte     m63910b_crem    1:1263-1264
+    byte     m63911b_tabe    1:1265-1266
+    byte     m63912b_coit    1:1267-1268
+    byte     m63913b_cont    1:1269-1270
+    byte     m63996b_outr    1:1271-1272
+    byte     m640_dois    1:1273-1274
+    str      m641_comb    1:1275-1304
+    byte     m64201b_adie    1:1305-1306
+    byte     m64202b_adie    1:1307-1308
+    byte     m64203b_sepa    1:1309-1310
+    byte     m64204b_perd    1:1311-1312
+    byte     m64205b_frus    1:1313-1314
+    byte     m64206b_mais    1:1315-1316
+    byte     m64207b_alca    1:1317-1318
+    byte     m64208b_apro    1:1319-1320
+    byte     m64209b_exig    1:1321-1322
+    byte     m64210b_mais    1:1323-1324
+    byte     m64211b_pess    1:1325-1326
+    byte     m64296b_outr    1:1327-1328
+    byte     m702_idad    1:1329-1330
+    byte     m703_freq    1:1331-1332
+    byte     m704_ulti    1:1333-1334
+    byte     m705_grau    1:1335-1336
+    byte     m706_alem    1:1337-1338
+    byte     m707_ocup    1:1339-1340
+    byte     m708_trab    1:1341-1342
+    byte     m70901_caso    1:1343-1344
+    byte     m70902_mari    1:1345-1346
+    byte     m70903_cuid    1:1347-1348
+    byte     m70904_nao    1:1349-1350
+    byte     m70905_prob    1:1351-1352
+    byte     m70906_nao    1:1353-1354
+    byte     m70907_nao    1:1355-1356
+    byte     m70996_outr    1:1357-1358
+    byte     m70998_nao    1:1359-1360
+    byte     m70999_recu    1:1361-1362
+    byte     m710_trab    1:1363-1364
+    byte     m71101_paro    1:1365-1366
+    byte     m71102_caso    1:1367-1368
+    byte     m71103_engr    1:1369-1370
+    byte     m71104_mari    1:1371-1372
+    byte     m71105_cuid    1:1373-1374
+    byte     m71106_nao    1:1375-1376
+    byte     m71107_prob    1:1377-1378
+    byte     m71108_nao    1:1379-1380
+    byte     m71109_nao    1:1381-1382
+    byte     m71110_demi    1:1383-1384
+    byte     m71196_outr    1:1385-1386
+    byte     m71198_nao    1:1387-1388
+    byte     m71199_recu    1:1389-1390
+    byte     m712_cart    1:1391-1392
+    long     m713_rend    1:1393-1398
+    byte     m714_trab    1:1399-1400
+    byte     m715_deci    1:1401-1402
+    byte     m716_porc    1:1403-1404
+    long     m717_rend    1:1405-1410
+    byte     m718a_cuid    1:1411-1412
+    byte     m718b_saud    1:1413-1414
+    byte     m718c_comp    1:1415-1416
+    byte     m718d_nece    1:1417-1418
+    byte     m718e_visi    1:1419-1420
+    byte     m718f_comi    1:1421-1422
+    byte     m719a_cria    1:1423-1424
+    byte     m719b_mari    1:1425-1426
+    byte     m719c_home    1:1427-1428
+    byte     m719d_mulh    1:1429-1430
+    str      m837_data_antr    1:1431-1440
+    float    m838a_peso    1:1441-1444
+    float    m838b_peso    1:1445-1448
+    float    m839a_circ    1:1449-1452
+    float    m839b_circ    1:1453-1456
+    float    m840a_altu    1:1457-1460
+    float    m840b_altu    1:1461-1464
+    byte     xm010_situ    1:1465-1466
+    byte     xm020_nume    1:1467-1467
+    float    xm110_peso    1:1468-1471
+    float    xm120_altu    1:1472-1475
+    float    xm130_circ    1:1476-1479
+    float    xm210_reti    1:1480-1482
+    float    xm220_hemo    1:1483-1486
+    double   xm999_peso    1:1487-1500
+}
