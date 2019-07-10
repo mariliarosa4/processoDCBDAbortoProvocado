@@ -1,0 +1,5 @@
+SAVE TRANSLATE
+  /OUTFILE="gravidezes_values.csv"  
+  /TYPE=CSV
+  /FIELDNAMES       
+  /CELLS=VALUES.  
